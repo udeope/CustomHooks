@@ -23,7 +23,7 @@ export const CounterApp = () => {
         className="m-5 px-3 btn btn-primary"
         onClick={() => {
           setState({
-            ...state,
+            ...state, //mantiene el resto de las propiedades sin cambiar
             counter1: counter1 + 1,
           });
         }}
