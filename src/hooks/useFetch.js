@@ -30,7 +30,7 @@ export const useFetch = (url) => {
             } else {
                 console.log('setState no se llamo')
             }
-          }, 2500);
+          }, 1000);
        
       });
   }, [url]); 
